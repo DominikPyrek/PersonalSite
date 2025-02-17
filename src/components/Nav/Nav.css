@@ -1,0 +1,38 @@
+p {
+  color: #FFFFFF;
+  opacity: 0.70;
+  font-size: 27px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1.5vh;
+  width: 100vw;
+  gap: 3vw;
+}
+
+img {
+  height: 30px;
+}
+
+.firstContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 45%;
+}
+
+.secondContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  width: 45%;
+}
+
+
+
+
