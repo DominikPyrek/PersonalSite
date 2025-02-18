@@ -12,8 +12,7 @@ p {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 3.5vh;
-  width: 100vw;
-  gap: 3vw;
+  width: 99vw;
   justify-content: center;
 }
 
@@ -32,7 +31,7 @@ img {
   display: flex;
   justify-content: flex-end;
   gap: 15px;
-  width: 35%;
+  width: 45%;
   flex-wrap: nowrap;
 }
 
