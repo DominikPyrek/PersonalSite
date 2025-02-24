@@ -1,9 +1,23 @@
+
+
+
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 7vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  gap: 2vh;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: bolder;
 }
 
 .iconHero {

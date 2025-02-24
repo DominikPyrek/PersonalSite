@@ -5,6 +5,14 @@
   margin-top: 11vh;
 }
 
+@keyframes ButtonsAnimation{
+  0% {box-shadow: -20px 0px 40px #222099}
+  25% {box-shadow: 0px 10px 40px #222099}
+  50% {box-shadow: 20px 0px 40px #222099}
+  75% {box-shadow: 0px -20px 40px #222099}
+  100% {box-shadow: -20px 0px 40px #222099}
+}
+
 .buttons button{
   border: #DE0EE9 1px solid;
   border: rgba(222,14,233,0.7) 1px solid;
@@ -14,4 +22,9 @@
   padding: 25px;
   color: #FFFFFF;
   font-size: 32px;
+  font-weight: normal;
+  font-family: 'Montserrat';
+  animation: ButtonsAnimation 4s linear infinite;
+  animation-direction: alternate;
+
 }
