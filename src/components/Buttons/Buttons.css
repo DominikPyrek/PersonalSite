@@ -28,3 +28,15 @@
   animation-direction: alternate;
 
 }
+
+@keyframes HoverAnimation {
+  from{background-color: rgba(222, 14, 233, 0.1)}
+  to{background-color: #222077}
+}
+
+
+.buttons button:hover{
+  animation: HoverAnimation 4s linear infinite, ButtonsAnimation 4s linear infinite;
+  animation-direction: alternate;
+
+}

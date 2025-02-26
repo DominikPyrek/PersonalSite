@@ -12,14 +12,32 @@
   font-family: 'Montserrat';
 }
 
-h1 {
+.heading {
   font-weight: normal;
 }
 
-h2 {
+.heading2 {
   font-weight: bolder;
 }
 
 .iconHero {
   height: 165px;
-} 
+}
+
+@keyframes rotateImage {
+  from {transform: rotate(0deg) translateY(-150px);}
+  to {transform: rotate(360deg) translateY(-150px);}
+}
+
+.wheel {
+  height: 165px;
+  width: 165px;
+}
+
+.wheel .wheelIcon {
+  animation: rotateImage 10s linear infinite;
+}
+
+.wheel .wheelIcon:nth-child(1) { transform: rotate(0deg) translateY(50px);}
+.wheel .wheelIcon:nth-child(2) { transform: rotate(120deg) translateY(50px);}
+.wheel .wheelIcon:nth-child(3) { transform: rotate(240deg) translateY(50px);}
