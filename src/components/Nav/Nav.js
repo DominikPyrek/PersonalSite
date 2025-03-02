@@ -13,9 +13,11 @@ export default function Nav() {
         <img className="github" src={github} />
       </div>
       <div className="secondContainer">
-        <p>Reach out to me </p>
-        <img src={send} />
-        <img src={mail} />
+        <div className="animationContainer">
+          <p>Reach out to me </p>
+          <img src={send} />
+          <img src={mail} />
+        </div>
       </div>
     </div>
   )

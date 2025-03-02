@@ -26,7 +26,7 @@
   font-family: 'Montserrat';
   animation: ButtonsAnimation 4s linear infinite;
   animation-direction: alternate;
-
+  cursor: pointer;
 }
 
 @keyframes HoverAnimation {

@@ -33,12 +33,11 @@ img {
   width: 35%;
 }
 
-.secondContainer:hover {
-  transform: scale(1.1);
+.firstContainer img {
+  cursor: pointer;
 }
 
 .secondContainer {
-  transition: transform 0.3s ease;
   display: flex;
   justify-content: flex-end;
   gap: 15px;
@@ -46,6 +45,23 @@ img {
   flex-wrap: nowrap;
 }
 
+.secondContainer p {
+  cursor: pointer;
+}
+
+.secondContainer img {
+  cursor: pointer;
+}
+
+.animationContainer {
+  display: flex;
+  gap: 15px;
+  transition: transform 0.3s linear;
+}
+
+.animationContainer:hover {
+  transform: scale(1.1);
+}
 
 
 
