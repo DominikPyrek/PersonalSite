@@ -1,17 +1,11 @@
 import './App.css'
 import Nav from '../components/Nav/Nav.js'
+import Skills_Line from '../components/Skills_Line/Skills_Line.js'
 function Skills() {
   return (
     <>
       <Nav />
-      <hr />
-      <div className="SkillsComp">
-        <div className="Orb"></div>
-        <div className='Orb'></div>
-        <div className='Orb'></div>
-        <div className='Orb'></div>
-        <div className='Orb'></div>
-      </div>
+      <Skills_Line />
     </>
 
   )
